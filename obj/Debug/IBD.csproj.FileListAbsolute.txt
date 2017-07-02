@@ -1,0 +1,10 @@
+C:\Users\Theone\Documents\SharpDevelop Projects\IBD\IBD\bin\Debug\IBD.exe.config
+C:\Users\Theone\Documents\SharpDevelop Projects\IBD\IBD\bin\Debug\IBD.exe
+C:\Users\Theone\Documents\SharpDevelop Projects\IBD\IBD\bin\Debug\IBD.pdb
+C:\Users\Theone\Documents\SharpDevelop Projects\IBD\IBD\obj\Debug\IBD.csprojResolveAssemblyReference.cache
+C:\Users\Theone\Documents\SharpDevelop Projects\IBD\IBD\obj\Debug\IBD.MainForm.resources
+C:\Users\Theone\Documents\SharpDevelop Projects\IBD\IBD\obj\Debug\IBD.csproj.GenerateResource.Cache
+C:\Users\Theone\Documents\SharpDevelop Projects\IBD\IBD\obj\Debug\IBD.exe
+C:\Users\Theone\Documents\SharpDevelop Projects\IBD\IBD\obj\Debug\IBD.pdb
+C:\Users\Theone\Documents\SharpDevelop Projects\IBD\IBD\bin\Debug\MySql.Data.dll
+C:\Users\Theone\Documents\SharpDevelop Projects\IBD\IBD\bin\Debug\MySql.Data.xml
