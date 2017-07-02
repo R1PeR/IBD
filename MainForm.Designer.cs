@@ -117,7 +117,7 @@ namespace IBD
 			this.deleteButton.Location = new System.Drawing.Point(151, 307);
 			this.deleteButton.Name = "deleteButton";
 			this.deleteButton.Size = new System.Drawing.Size(100, 27);
-			this.deleteButton.TabIndex = 7;
+			this.deleteButton.TabIndex = 12;
 			this.deleteButton.Text = "Delete";
 			this.deleteButton.UseVisualStyleBackColor = true;
 			this.deleteButton.Click += new System.EventHandler(this.DeleteButtonClick);
@@ -127,7 +127,7 @@ namespace IBD
 			this.updateButton.Location = new System.Drawing.Point(17, 307);
 			this.updateButton.Name = "updateButton";
 			this.updateButton.Size = new System.Drawing.Size(100, 27);
-			this.updateButton.TabIndex = 8;
+			this.updateButton.TabIndex = 13;
 			this.updateButton.Text = "Update";
 			this.updateButton.UseVisualStyleBackColor = true;
 			this.updateButton.Click += new System.EventHandler(this.UpdateButtonClick);
@@ -137,7 +137,7 @@ namespace IBD
 			this.addButton.Location = new System.Drawing.Point(282, 307);
 			this.addButton.Name = "addButton";
 			this.addButton.Size = new System.Drawing.Size(100, 27);
-			this.addButton.TabIndex = 9;
+			this.addButton.TabIndex = 11;
 			this.addButton.Text = "Add";
 			this.addButton.UseVisualStyleBackColor = true;
 			this.addButton.Click += new System.EventHandler(this.AddButtonClick);
@@ -147,7 +147,7 @@ namespace IBD
 			this.label1.Location = new System.Drawing.Point(17, 7);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(210, 20);
-			this.label1.TabIndex = 10;
+			this.label1.TabIndex = 6;
 			this.label1.Text = "Nazwa serwera";
 			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
@@ -156,7 +156,7 @@ namespace IBD
 			this.label2.Location = new System.Drawing.Point(17, 33);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(210, 20);
-			this.label2.TabIndex = 11;
+			this.label2.TabIndex = 3;
 			this.label2.Text = "Baza danych";
 			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
@@ -183,14 +183,14 @@ namespace IBD
 			this.password.Location = new System.Drawing.Point(228, 82);
 			this.password.Name = "password";
 			this.password.Size = new System.Drawing.Size(157, 20);
-			this.password.TabIndex = 13;
+			this.password.TabIndex = 3;
 			// 
 			// loginToDB
 			// 
 			this.loginToDB.Location = new System.Drawing.Point(228, 114);
 			this.loginToDB.Name = "loginToDB";
 			this.loginToDB.Size = new System.Drawing.Size(156, 26);
-			this.loginToDB.TabIndex = 15;
+			this.loginToDB.TabIndex = 4;
 			this.loginToDB.Text = "Login";
 			this.loginToDB.UseVisualStyleBackColor = true;
 			this.loginToDB.Click += new System.EventHandler(this.LoginToDBClick);
@@ -200,21 +200,21 @@ namespace IBD
 			this.nameBox.Location = new System.Drawing.Point(229, 176);
 			this.nameBox.Name = "nameBox";
 			this.nameBox.Size = new System.Drawing.Size(156, 20);
-			this.nameBox.TabIndex = 16;
+			this.nameBox.TabIndex = 6;
 			// 
 			// surnameBox
 			// 
 			this.surnameBox.Location = new System.Drawing.Point(229, 202);
 			this.surnameBox.Name = "surnameBox";
 			this.surnameBox.Size = new System.Drawing.Size(156, 20);
-			this.surnameBox.TabIndex = 17;
+			this.surnameBox.TabIndex = 7;
 			// 
 			// positionBox
 			// 
 			this.positionBox.Location = new System.Drawing.Point(229, 228);
 			this.positionBox.Name = "positionBox";
 			this.positionBox.Size = new System.Drawing.Size(156, 20);
-			this.positionBox.TabIndex = 18;
+			this.positionBox.TabIndex = 8;
 			// 
 			// label5
 			// 
@@ -257,7 +257,7 @@ namespace IBD
 			this.label9.Location = new System.Drawing.Point(12, 280);
 			this.label9.Name = "label9";
 			this.label9.Size = new System.Drawing.Size(211, 20);
-			this.label9.TabIndex = 25;
+			this.label9.TabIndex = 17;
 			this.label9.Text = "Data zatrudnienia";
 			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
@@ -268,7 +268,7 @@ namespace IBD
 			this.dateOfEmployment.Location = new System.Drawing.Point(229, 280);
 			this.dateOfEmployment.Name = "dateOfEmployment";
 			this.dateOfEmployment.Size = new System.Drawing.Size(156, 20);
-			this.dateOfEmployment.TabIndex = 26;
+			this.dateOfEmployment.TabIndex = 10;
 			// 
 			// salaryBox
 			// 
@@ -281,10 +281,11 @@ namespace IBD
 			0});
 			this.salaryBox.Name = "salaryBox";
 			this.salaryBox.Size = new System.Drawing.Size(156, 20);
-			this.salaryBox.TabIndex = 27;
+			this.salaryBox.TabIndex = 9;
 			// 
 			// dataGridView1
 			// 
+			this.dataGridView1.AllowUserToAddRows = false;
 			this.dataGridView1.AllowUserToDeleteRows = false;
 			this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			this.dataGridView1.Location = new System.Drawing.Point(19, 340);
@@ -293,6 +294,7 @@ namespace IBD
 			this.dataGridView1.ReadOnly = true;
 			this.dataGridView1.Size = new System.Drawing.Size(367, 225);
 			this.dataGridView1.TabIndex = 29;
+			this.dataGridView1.TabStop = false;
 			this.dataGridView1.SelectionChanged += new System.EventHandler(this.DataGridView1SelectionChanged);
 			// 
 			// idBox
@@ -305,7 +307,7 @@ namespace IBD
 			0});
 			this.idBox.Name = "idBox";
 			this.idBox.Size = new System.Drawing.Size(153, 20);
-			this.idBox.TabIndex = 31;
+			this.idBox.TabIndex = 5;
 			// 
 			// label10
 			// 
